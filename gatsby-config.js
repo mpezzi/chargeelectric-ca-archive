@@ -2,10 +2,12 @@ module.exports = {
   siteMetadata: {
     title: `Charge Electric`,
     description: `Our electricians are highly trained and certified to address all of your electrical needs.`,
+    mail: `info@chargeelectric.ca`,
     author: `@mikepezzi`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -17,7 +19,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: "markdown-pages",
-        path: `${__dirname}/src/services`,
+        path: `${__dirname}/src/contents/services`,
       },
     },
     {
@@ -46,7 +48,6 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
