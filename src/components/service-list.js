@@ -26,7 +26,7 @@ const ServiceList = () => {
 
   return (
     <>
-      <div className="text-center">
+      <div id="services" className="text-center">
         <h2 className="section-title mt-0">
           Our Services
         </h2>

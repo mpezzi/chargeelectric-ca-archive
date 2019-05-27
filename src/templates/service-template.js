@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from 'gatsby';
+import { Link, graphql } from 'gatsby';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -16,6 +16,9 @@ const ServiceTemplate = ({ data }) => {
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
         />
+        <Link to="/#services">
+          Back to services
+        </Link>
       </div>
     </Layout>
   );

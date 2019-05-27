@@ -29,7 +29,7 @@ const BodyHero = () => {
               {data.site.siteMetadata.description}
             </p>
             <div className="hero-cta">
-              <a className="button button-primary" href={`mailto:${data.site.siteMetadata.mail}`}>
+              <a className="button button-primary" href="#contact">
                 Get in touch
               </a>
             </div>
