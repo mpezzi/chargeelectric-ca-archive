@@ -1,28 +1,13 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
 import "./body-footer.scss"
 
 const BodyFooter = () => {
-
-  const data = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            description
-            mail
-          }
-        }
-      }
-    `
-  );
 
   return (
     <section id="contact" className="cta section">
       <div className="container">
         <div className="cta-inner section-inner">
-          <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+          <form name="contact" method="POST" netlify netlify-honeypot="bot-field">
             <p style={{display: 'none'}}>
               <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
             </p>
@@ -44,7 +29,7 @@ const BodyFooter = () => {
                 <label>Email:</label>
               </div>
               <div>
-                <input type="text" id="email" name="email" />
+                <input type="email" id="email" name="email" />
               </div>
             </div>
             <div className="form-field">
