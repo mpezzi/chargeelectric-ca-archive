@@ -1,7 +1,8 @@
 ---
-path: "/services/childproof-outlets"
-date: "2017-11-07"
 title: "Childproof Outlets"
+path: "/services/childproof-outlets"
+image: "01-childproof-outlets.jpg"
+date: "2017-11-07"
 ---
 
 Child proof outs appear identical to standard electrical outlets but instead have a spring loaded cover which prevents the insertion of an object when unequal pressure is applied to the receptacles openings.

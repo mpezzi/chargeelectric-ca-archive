@@ -1,7 +1,8 @@
 ---
-path: "/services/circuit-installations"
-date: "2017-11-07"
 title: "Circuit Installations"
+path: "/services/circuit-installations"
+image: "02-circuit-installations.jpg"
+date: "2017-11-07"
 ---
 
 As technology advances so does the electrical power required to maintain safe and continuous service on high-demand circuits. By upgrading your building circuitry you not only ensure continuous uninterrupted power, but significantly reduce the risk of electrical fire.

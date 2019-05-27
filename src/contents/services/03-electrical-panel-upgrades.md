@@ -1,7 +1,8 @@
 ---
-path: "/services/electrical-panel-upgrades"
-date: "2017-11-07"
 title: "Electrical Panel Upgrades"
+path: "/services/electrical-panel-upgrades"
+image: "03-electrical-panel-upgrades.jpg"
+date: "2017-11-07"
 ---
 
 In the last ten years have you purchased a new TV, new kitchen appliance or added or new electrical devices to your home? How about your electrical panel, in the last ten years have you upgraded your panel? If not, than it may be time for an upgrade. Failing to keep your panel maintained and up-to-date can lead to a host of safety issues and can impair the way your electric appliances and devices function.

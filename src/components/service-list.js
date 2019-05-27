@@ -13,7 +13,9 @@ const ServiceList = () => {
               id
               excerpt(pruneLength: 250)
               frontmatter {
-                title
+                title,
+                path,
+                image
               }
             }
           }
@@ -35,7 +37,7 @@ const ServiceList = () => {
       <div className="features-wrap">
         {
           data.allMarkdownRemark.edges.map(
-            e => <Service key={e.node.id} title={e.node.frontmatter.title} description={e.node.excerpt} />
+            e => <Service key={e.node.id} title={e.node.frontmatter.title} description={e.node.excerpt} path={e.node.frontmatter.path} image={e.node.frontmatter.image} />
           )
         }
       </div>

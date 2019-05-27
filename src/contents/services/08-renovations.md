@@ -1,7 +1,8 @@
 ---
-path: "/services/renovations"
-date: "2017-11-07"
 title: "Renovations"
+path: "/services/renovations"
+image: "08-renovations.jpg"
+date: "2017-11-07"
 ---
 
 When planning a home renovation it’s best to speak with a qualified electrician about implications on your homes electrical systems.
