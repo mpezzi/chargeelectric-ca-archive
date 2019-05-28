@@ -7,10 +7,7 @@ const BodyFooter = () => {
     <section id="contact" className="cta section">
       <div className="container">
         <div className="cta-inner section-inner">
-          <form name="contact" method="POST" action="/" data-netlify="true" data-netlify-honeypot="bot-field">
-            <p style={{display: 'none'}}>
-              <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-            </p>
+          <form name="contact" method="POST" action="https://formspree.io/funkym@gmail.com">
             <div className="form-field">
               <h3 className="section-title mt-0">
                 Want an enjoyable and high quality experience? Get in touch!
