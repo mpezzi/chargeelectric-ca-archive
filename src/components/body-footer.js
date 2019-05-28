@@ -7,7 +7,8 @@ const BodyFooter = () => {
     <section id="contact" className="cta section">
       <div className="container">
         <div className="cta-inner section-inner">
-          <form name="contact" method="POST" action="https://formspree.io/funkym@gmail.com">
+          <form name="contact" method="POST" action="https://formspree.io/info@chargeelectric.ca">
+            <input type="text" name="_gotcha" style={{display: 'none'}} />
             <div className="form-field">
               <h3 className="section-title mt-0">
                 Want an enjoyable and high quality experience? Get in touch!
